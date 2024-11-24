@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <title>Document</title>
+</head>
+
+
+<body>
+    <div id="nav">
+        <img src="image/m2.jpg" alt="" />
+        <h4>HOME</h4>
+        <h4>ABOUT</h4>
+        <h4>REVIEW</h4>
+        <h4>CONTACT US</h4>
+    </div>
+    <div id="cursor"></div>
+    <div id="cursor-blur"></div>
+
+    <video autoplay loop muted src="image/v2.mp4"></video>
+
+    <div id="main">
+        <div id="page1">
+            <h1>YOUR BEAUTY.YOUR WAY</h1>
+            <h2>welcome to a World Of Beauty.</h2>
+            <p>
+                hello guys Golf is a multipurpose golf facility located in udaipur,
+                South East London. Passionate about technology, market development and
+                making  fun and accessible to everyone.
+            </p>
+        </div>
+        <div id="page2">
+            <div id="scroller">
+                <div id="scroller-in">
+                    <h4>LOREAL,</h4>
+                    <h4>LAKME,</h4>
+                    <h4>MAYBELLINE,</h4>
+                    <h4>LOTUS,</h4>
+                    <h4>MYGLAMM.</h4>
+                </div>
+                <div id="scroller-in">
+                    <h4>LOREAL,</h4>
+                    <h4>LAKME,</h4>
+                    <h4>MAYBELLINE,</h4>
+                    <h4>LOTUS,</h4>
+                    <h4>MYGLAMM.</h4>
+                </div>
+            </div>
+            <div id="about-us">
+                <img src="image/m5.avif" alt="" />
+                <div id="about-us-in">
+                    <h3>ABOUT US</h3>
+                    <p>
+                        Home to a 46-bay, multi-tier, floodlit driving range, powered by
+                        Toptracer Range technology. Complimented by a practice green and
+                        bunker, coffee shop and American Golf Store. There truly is
+                        something for everyone as we also boast two outdoor 18-hole
+                        dinosaur themed crazy golf courses.
+                    </p>
+                </div>
+                <img src="image/m9.avif"
+                    alt="" />
+            </div>
+            <div id="cards-container">
+                <div class="card" id="card1">
+                    <div class="overlay">
+                        <h4>Cylindrella</h4>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla
+                            quam molestias magni cupiditate architecto et enim quas facere
+                            ipsum tempora?
+                        </p>
+                    </div>
+                </div>
+                <div class="card" id="card2">
+                    <div class="overlay">
+                        <h4>karina</h4>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla
+                            quam molestias magni cupiditate architecto et enim quas facere
+                            ipsum tempora?
+                        </p>
+                    </div>
+                </div>
+                <div class="card" id="card3">
+                    <div class="overlay">
+                        <h4>Danica</h4>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla
+                            quam molestias magni cupiditate architecto et enim quas facere
+                            ipsum tempora?
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div id="green-div">
+                <img src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/dots-side.svg" alt="" />
+                <h4>
+                    SIGN UP TO JOIN AND ENJOY OUR FREE FIRST MASSAGE (FIRST MAKEUP UPTO RUPEES 2000).
+                </h4>
+                <img src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/dots-side.svg" alt="" />
+            </div>
+        </div>
+        <div id="cards-container">
+            <div class="card" id="card4">
+                <div class="overlay">
+                    <h4>Foundation</h4>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla
+                        quam molestias magni cupiditate architecto et enim quas facere
+                        ipsum tempora?
+                    </p>
+                </div>
+            </div>
+            <div class="card" id="card5">
+                <div class="overlay">
+                    <h4>Eye Shadow</h4>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla
+                        quam molestias magni cupiditate architecto et enim quas facere
+                        ipsum tempora?
+                    </p>
+                </div>
+            </div>
+            <div class="card" id="card6">
+                <div class="overlay">
+                    <h4>bronzer</h4>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla
+                        quam molestias magni cupiditate architecto et enim quas facere
+                        ipsum tempora?
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div id="cards-container">
+            <div class="card" id="card7">
+                <div class="overlay">
+                    <h4>Eye Linear</h4>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla
+                        quam molestias magni cupiditate architecto et enim quas facere
+                        ipsum tempora?
+                    </p>
+                </div>
+            </div>
+            <div class="card" id="card8">
+                <div class="overlay">
+                    <h4>Setting Powderf</h4>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla
+                        quam molestias magni cupiditate architecto et enim quas facere
+                        ipsum tempora?
+                    </p>
+                </div>
+            </div>
+            <div class="card" id="card9">
+                <div class="overlay">
+                    <h4>Highlighter</h4>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla
+                        quam molestias magni cupiditate architecto et enim quas facere
+                        ipsum tempora?
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div id="page4">
+            <h1>WHAT ARE YOU WAITING FOR?</h1>
+            <div class="elem">
+                <h2>LAKME......CLICK ME </h2>
+                <img src="image/m15.jpg" alt="">
+            </div>
+            <div class="elem">
+                <h2>LOREAL......CLICK ME</h2>
+                <img src="image/m16.jpg" alt="">
+            </div>
+            <div class="elem">
+                <h2>MAYBELLINE......CLICK ME</h2>
+                <img src="image/m17.jpg" alt="">
+            </div>
+            
+        </div>
+
+        <div id="footer">
+            <img src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/dots-side.svg" alt="">
+            <div id="f1">
+                <img src="image/m2.jpg" alt="">
+            </div>
+            <div id="f2">
+                <h3>HOME</h3>
+                <h3>ABOUT</h3>
+                <h3>REVIEW</h3>
+            </div>
+            <div id="f3">
+                <h3>HIGHLIGHTER</h3>
+                <h3>FOUNDATION</h3>
+                <h3>MASKERA</h3>
+                
+            </div>
+            <div id="f4">
+                <h4>LOREAL</h4>
+                <h4>LAKME</h4>
+                <h4>MAYBELLINE</h4>
+                <h4>LOTUS</h4>
+                <h4>MY GLAMM</h4>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html> 
